@@ -17,6 +17,11 @@ public class Agenda {
         return appointment;
     }
 
+    public List<Appointment> removeAppointment(Appointment appointment) {
+        appointments.remove(appointment);
+        return appointments;
+    }
+
     public List<Appointment> getAppointments() {
         return appointments;
     }

@@ -14,11 +14,22 @@ public class AppointmentService {
         return appointment;
     }
 
-    public Boolean removeAppointment(Appointment appointment) {
-        return true;
+    public Appointment removeAppointment(Appointment appointment, Cabinet cabinet) {
+        Agenda agenda = cabinet.getAgenda();
+        agenda.removeAppointment(appointment);
+        cabinet.setAgenda(agenda);
+        return appointment;
     }
 
-    public Boolean addExtraInfo(Appointment appointment) {
+    public Boolean addExtraInfo(String extraInfo, Appointment appointment, Cabinet cabinet) {
+        Appointment updatedAppointment = new Appointment(appointment);
+        updatedAppointment.setExtraInfo(extraInfo);
+
+        Agenda agenda = cabinet.getAgenda();
+        agenda.removeAppointment(appointment);
+        agenda.addAppointment(updatedAppointment);
+
+        cabinet.setAgenda(agenda);
         return true;
     }
 

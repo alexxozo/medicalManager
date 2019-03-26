@@ -48,6 +48,10 @@ public class Main {
         System.out.println(appointment.toString());
         cabinetService.printAgenda(cabinet);
 
+        // Remove an appointment
+        appointmentService.removeAppointment(appointment2, cabinet);
+        cabinetService.printAgenda(cabinet);
+
         // Give a prescription to a pacient
         ArrayList<String> medications = new ArrayList<>();
         medications.add("Algocalmin");
@@ -62,5 +66,10 @@ public class Main {
         Invoice invoice = new Invoice(appointment.getPacient(), appointment.getDoctor(), "lala", 123.0);
         invoiceService.addInvoice(invoice, appointment);
         cabinetService.printInvoices(cabinet);
+
+        // Add extra info
+        appointmentService.addExtraInfo("test", appointment, cabinet);
+        // Debug
+        cabinetService.printAgenda(cabinet);
     }
 }
