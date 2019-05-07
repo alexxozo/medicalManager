@@ -49,9 +49,9 @@ public class Location {
     public String toString() {
         return "Location{" +
                 "streetName='" + streetName + '\'' +
-                ", country='" + country + '\'' +
-                ", city='" + city + '\'' +
-                ", number=" + number +
+                "; country='" + country + '\'' +
+                "; city='" + city + '\'' +
+                "; number=" + number +
                 '}';
     }
 }

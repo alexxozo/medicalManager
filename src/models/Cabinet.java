@@ -1,5 +1,8 @@
 package models;
 
+import services.CsvEditor;
+
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +16,32 @@ public class Cabinet {
     private List<Invoice> invoicesList;
     private Agenda agenda;
 
+    private static CsvFile csvFile = null;
+    private static CsvEditor csvEditor = null;
+
+    public Cabinet() {
+        File file = new File("src/CSV/cabinet-info.csv");
+        csvFile = new CsvFile(file);
+        csvEditor = new CsvEditor();
+        if (file.exists()) {
+            List<String> info = csvEditor.readDataToList(csvFile);
+            String [] data = info.get(1).split(",");
+            // Instantiate from file
+            this.name = data[0];
+            this.phoneNumber = data[2];
+            this.CUI = data[3];
+            this.IBAN = data[4];
+            this.agenda = new Agenda();
+            this.invoicesList = new ArrayList<Invoice>();
+            this.doctorsList = new ArrayList<Doctor>();
+        }
+    }
+
     public Cabinet(String name, Location location, String phoneNumber, String CUI, String IBAN) {
+        if (csvFile == null) {
+            csvFile = new CsvFile("name,location,phone,cui,iban", "cabinet-info.csv");
+            csvEditor = new CsvEditor();
+        }
         this.name = name;
         this.location = location;
         this.phoneNumber = phoneNumber;
@@ -22,10 +50,8 @@ public class Cabinet {
         this.agenda = new Agenda();
         this.invoicesList = new ArrayList<Invoice>();
         this.doctorsList = new ArrayList<Doctor>();
-    }
 
-    public Boolean removeDoctor(Doctor doc) {
-        return true;
+        csvEditor.writeLine(csvFile, this.name + ',' + this.location.toString() + ',' + this.phoneNumber + ',' + this.CUI + ',' + this.IBAN);
     }
 
     public String getName() {

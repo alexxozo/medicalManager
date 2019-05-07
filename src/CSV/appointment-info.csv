@@ -1,0 +1,2 @@
+doctor,pacient,date
+Doctor{firstName='NotRemoved'; lastName='Sin'; email='alex@yahoo.com'; password='123'; phoneNumber='0721342423'},Pacient{phoneNumber='null'; prescription=null; firstName='Gabriel'; lastName='Simion'; age=20; sex='M'},Tue May 07 14:50:14 EEST 2019

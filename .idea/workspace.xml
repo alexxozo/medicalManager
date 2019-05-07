@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b69470eb-7985-436c-b9ad-257494388726" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/medicalManager/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/medicalManager/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/medicalManager/models/Appointment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/medicalManager/models/Appointment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/medicalManager/models/Cabinet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/medicalManager/models/Cabinet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/medicalManager/models/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/medicalManager/models/Doctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/medicalManager/models/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/medicalManager/models/Invoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/medicalManager/models/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/medicalManager/models/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/medicalManager/models/Pacient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/medicalManager/models/Pacient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/medicalManager/services/AppointmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/medicalManager/services/AppointmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/medicalManager/services/CabinetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/medicalManager/services/CabinetService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/medicalManager/services/InvoiceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/medicalManager/services/InvoiceService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Agenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Appointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Cabinet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Cabinet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Pacient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Pacient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/AppointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/AppointmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/CabinetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/CabinetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/InvoiceService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,13 +31,74 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="6">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/Main.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="357">
+                    <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                      <element signature="method#basicSetupWithoutCSV#0;class#Main#0" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/models/CsvFile.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="332">
+                    <caret line="22" selection-start-line="22" selection-end-line="22" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                      <element signature="e#1079#1080#0" expanded="true" />
+                      <element signature="e#1111#1112#0" expanded="true" />
+                      <element signature="e#1147#1148#0" expanded="true" />
+                      <element signature="e#1177#1178#0" expanded="true" />
+                      <element signature="e#1212#1213#0" expanded="true" />
+                      <element signature="e#1243#1244#0" expanded="true" />
+                      <element signature="e#1291#1292#0" expanded="true" />
+                      <element signature="e#1331#1332#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/services/AppointmentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+            <state relative-caret-position="102">
+              <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CSV/cabinet-info.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/CsvEditor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,69 +107,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/AppointmentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
-              <folding>
-                <element signature="method#addAppointmentToAgenda#0;class#AppointmentService#0" />
-                <element signature="method#removeAppointment#0;class#AppointmentService#0" />
-                <element signature="method#addExtraInfo#0;class#AppointmentService#0" />
-                <element signature="method#addPrescription#0;class#AppointmentService#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/Appointment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/Agenda.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/CabinetService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="172">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/models/Cabinet.java">
+        <entry file="file://$PROJECT_DIR$/src/CSV/doctor-info.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state>
+              <caret column="52" selection-start-column="52" selection-end-column="52" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CSV/appointment-info.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="246" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CSV/audit.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/InvoiceService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CSV/invoice-info.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/services/InvoiceService.java">
+        <entry file="file://$PROJECT_DIR$/src/models/Cabinet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-              <folding>
-                <element signature="method#addInvoice#0;class#InvoiceService#0" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,17 +181,28 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/models/Agenda.java" />
-        <option value="$PROJECT_DIR$/src/models/Appointment.java" />
+        <option value="$PROJECT_DIR$/src/CSV/cabinet-info.csv" />
+        <option value="$PROJECT_DIR$/src/CSV/audit.csv" />
+        <option value="$PROJECT_DIR$/src/services/AuditService.java" />
+        <option value="$PROJECT_DIR$/src/models/Location.java" />
+        <option value="$PROJECT_DIR$/src/models/Pacient.java" />
+        <option value="$PROJECT_DIR$/src/models/Invoice.java" />
+        <option value="$PROJECT_DIR$/src/services/CabinetService.java" />
+        <option value="$PROJECT_DIR$/src/models/Doctor.java" />
         <option value="$PROJECT_DIR$/src/services/AppointmentService.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/services/InvoiceService.java" />
+        <option value="$PROJECT_DIR$/src/models/Appointment.java" />
+        <option value="$PROJECT_DIR$/src/models/CsvFile.java" />
+        <option value="$PROJECT_DIR$/src/services/CsvEditor.java" />
+        <option value="$PROJECT_DIR$/src/models/Cabinet.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-17" />
-    <option name="y" value="71" />
-    <option name="width" value="1943" />
+    <option name="x" value="-21" />
+    <option name="y" value="66" />
+    <option name="width" value="1947" />
     <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -121,6 +212,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,6 +224,12 @@
               <item name="medicalManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="medicalManager" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="medicalManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="medicalManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CSV" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="medicalManager" type="b2602c69:ProjectViewProjectNode" />
@@ -149,11 +247,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553352657531" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557229812156" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UNIBUC-PAO/Collections(16.04)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,9 +304,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1691" height="958" extended-state="6" />
+    <frame x="-8" y="-8" width="2250" height="958" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18538982" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19469835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -216,8 +315,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30487806" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30487806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -225,7 +324,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3292683" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -236,36 +335,140 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/models/Cabinet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/CSV/cabinet-info.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Agenda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="204">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/AuditService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Pacient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="63" column="87" selection-start-line="63" selection-start-column="87" selection-end-line="63" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSV/doctor-info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/models/Appointment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="350">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+          <folding>
+            <element signature="e#1786#1787#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/CSV/invoice-info.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSV/audit.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSV/appointment-info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="246" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/InvoiceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/AppointmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/CsvFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CSV/cabinet-info.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/CsvEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -274,30 +477,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/CabinetService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="172">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/AppointmentService.java">
+    <entry file="file://$PROJECT_DIR$/src/models/Cabinet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
-          <folding>
-            <element signature="method#addAppointmentToAgenda#0;class#AppointmentService#0" />
-            <element signature="method#removeAppointment#0;class#AppointmentService#0" />
-            <element signature="method#addExtraInfo#0;class#AppointmentService#0" />
-            <element signature="method#addPrescription#0;class#AppointmentService#0" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/InvoiceService.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="357">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding>
-            <element signature="method#addInvoice#0;class#InvoiceService#0" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#basicSetupWithoutCSV#0;class#Main#0" />
           </folding>
         </state>
       </provider>

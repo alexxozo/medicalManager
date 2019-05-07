@@ -28,11 +28,11 @@ public class Pacient extends Human {
     public String toString() {
         return "Pacient{" +
                 "phoneNumber='" + phoneNumber + '\'' +
-                ", prescription=" + prescription +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
-                ", sex='" + sex + '\'' +
+                "; prescription=" + prescription +
+                "; firstName='" + firstName + '\'' +
+                "; lastName='" + lastName + '\'' +
+                "; age=" + age +
+                "; sex='" + sex + '\'' +
                 '}';
     }
 }

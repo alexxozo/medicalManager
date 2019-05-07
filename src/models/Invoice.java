@@ -49,9 +49,9 @@ public class Invoice {
     public String toString() {
         return "Invoice{" +
                 "pacient=" + pacient +
-                ", doctor=" + doctor +
-                ", procedure='" + procedure + '\'' +
-                ", payment=" + payment +
+                "; doctor=" + doctor +
+                "; procedure='" + procedure + '\'' +
+                "; payment=" + payment +
                 '}';
     }
 }

@@ -69,10 +69,14 @@ public class Appointment implements Comparable<Appointment> {
     public String toString() {
         return "Appointment{" +
                 "doctor=" + doctor +
-                ", pacient=" + pacient +
-                ", date=" + date +
-                ", extraInfo='" + extraInfo + '\'' +
+                "; pacient=" + pacient +
+                "; date=" + date +
+                "; extraInfo='" + extraInfo + '\'' +
                 '}';
+    }
+
+    public String toCSV() {
+        return doctor.toString() + ',' + pacient.toString() + ',' + date.toString();
     }
 
     @Override

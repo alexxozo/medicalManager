@@ -1,5 +1,7 @@
 package models;
 
+import services.CsvEditor;
+
 public class Doctor extends Human{
     private String type;
     private String email;
@@ -50,10 +52,15 @@ public class Doctor extends Human{
     public String toString() {
         return "Doctor{" +
                 "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
+                ";" +
+                " lastName='" + lastName + '\'' +
+                "; email='" + email + '\'' +
+                "; password='" + password + '\'' +
+                "; phoneNumber='" + phoneNumber + '\'' +
                 '}';
+    }
+
+    public String toCSV() {
+        return firstName + ',' + lastName + ',' + age + ',' + sex + ',' + type + ',' + email + ',' + password + ',' + phoneNumber;
     }
 }
