@@ -18,8 +18,8 @@ public class DatabaseConnection {
     private DatabaseConnection(){
         try {
             connection = DriverManager
-                    .getConnection("jdbc:mysql://remotemysql.com/U7oElUCuPi",
-                            "U7oElUCuPi","LQE5FhIc2O");
+                    .getConnection("jdbc:mysql://remotemysql.com/XXXX",
+                            "XXXX","XXXX");
         } catch (SQLException e) {
             e.printStackTrace();
         }
